@@ -1,0 +1,9 @@
+{
+  "window": {
+    "navigationBarBackgroundColor": "#03bbd5"
+  },
+  "pages": [
+    "pages/index/index",
+    "pages/publish/publish.js"
+  ]
+}

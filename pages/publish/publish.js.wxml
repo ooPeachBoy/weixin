@@ -1,0 +1,36 @@
+<!-- 发布页面 -->
+<view class="publish-page">
+<!-- address -->
+  <view class="publish-page-publish-row">
+    <view class="publish-page-title">
+      我的地址是：
+    </view>
+    <input class="publish-page-input" bindinput="bindReplaceInput" placeholder="点击选项，要钩钩哦~" />
+  </view>
+<!-- type -->
+ <view class="publish-page-publish-row">
+    <view class="publish-page-title">
+      类型：
+    </view>
+    <radio-group class="publish-page-input" id="type" >
+    <radio>发布</radio>
+    <radio checked>求购</radio>
+    </radio-group>
+  </view>
+  <!-- explain -->
+   <view class="publish-page-publish-row" >
+    <view class="publish-page-title">
+      说明：
+    </view>
+    <input id="type" class="publish-page-input" bindinput="bindReplaceInput" placeholder="请写出您具体的需求" />
+  </view>
+  <!-- telephone -->
+  <view class="publish-page-publish-row">
+    <view class="publish-page-title">
+      联系方式：
+    </view>
+    <input class="publish-page-input" bindinput="bindReplaceInput" placeholder="请写出您的联系方式" />
+  </view>
+  <!-- 发布 -->
+  <button class="publisn-publishbtn">发布</button>
+</view>
