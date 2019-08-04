@@ -1,0 +1,39 @@
+/* publish页面 */
+
+.publish-page {
+  padding: 0 20rpx;
+}
+
+.publish-page-publish-row {
+  display: flex;
+  height: 100rpx;
+  line-height: 100rpx;
+  border-bottom: 1px solid #cecece;
+}
+
+.publish-page-input {
+  height: 100rpx;
+  line-height: 100rpx;
+  padding-left: 26rpx;
+}
+
+.publish-page-input radio {
+  margin-right: 20px;
+}
+
+.publisn-publishbtn {
+  background: #ff9700;
+  margin-top: 18rpx;
+}
+
+#type {
+  padding-left: 100rpx;
+}
+
+.address {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  }

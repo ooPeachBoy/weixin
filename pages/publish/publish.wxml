@@ -1,0 +1,49 @@
+<!-- 发布页面 -->
+<view class="publish-page">
+  <!-- address -->
+  <view class="publish-page-publish-row">
+    <view class="publish-page-title">
+      我的地址是：
+    </view>
+    <input 
+    class="publish-page-input address"
+    bindtap="selectOfLocation" 
+    value="{{address}}" />
+  </view>
+  <!-- type -->
+  <view class="publish-page-publish-row">
+    <view class="publish-page-title">
+      类型：
+    </view>
+    <radio-group 
+    bindchange="radioChange" 
+    class="publish-page-input" 
+    id="type">
+      <radio value="publish">发布</radio>
+      <radio value="buy" checked>求购</radio>
+    </radio-group>
+  </view>
+  <!-- explain -->
+  <view class="publish-page-publish-row">
+    <view class="publish-page-title">
+      说明：
+    </view>
+    <input id="type" 
+    class="publish-page-input"
+    bindblur="bindReplaceInput" 
+    placeholder="请写出您具体的需求" 
+    value="{{message}}" />
+  </view>
+  <!-- telephone -->
+  <view class="publish-page-publish-row">
+    <view class="publish-page-title">
+      联系方式：
+    </view>
+    <input 
+    class="publish-page-input" 
+    bindblur="getmessage" 
+    placeholder="请输入联系方式" />
+  </view>
+  <!-- 发布 -->
+  <button class="publisn-publishbtn" bindtap="handleSubmit">发布</button>
+</view>

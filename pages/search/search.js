@@ -1,4 +1,4 @@
-// pages/publish/publish.js.js
+// pages/search/search.js
 Page({
 
   /**

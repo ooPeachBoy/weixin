@@ -4,6 +4,13 @@
   },
   "pages": [
     "pages/index/index",
-    "pages/publish/publish.js"
-  ]
+    "pages/publish/publish",
+    "pages/search/search"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "sitemapLocation": "sitemap3.json"
 }

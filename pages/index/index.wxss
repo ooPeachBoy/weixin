@@ -11,14 +11,15 @@
   height: 100%;
   width: 100%;
 }
-
-
 .index-page_bottombtn {
   display: flex;
   height: 80rpx;
-}
+  line-height: 80rpx;
+  text-align: center;
+  color: #1e1e1e;
+  }
 
-.index-page_bottombtn button {
+.index-page_bottombtn navigator {
   flex: 1;
 }
 
@@ -29,3 +30,4 @@
 .index-page_cancel {
   background-color: #03bbd5;
 }
+
